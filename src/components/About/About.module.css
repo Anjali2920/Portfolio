@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+
+
+.container {
+    position: relative;
+    /* background-color: var(--color-secondary); */
+    background: linear-gradient(90deg, rgba(59, 89, 152, 0.42) -60.08%, rgba(59, 89, 152, 0) 66.02%); /* Adjusted gradient to match primary color */
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutImage {
+    width: 50%;
+}
+
+.about {
+    color: var(--color-text);
+    gap: 70px;
+    background-size: 0 100%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.about:hover {
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+}

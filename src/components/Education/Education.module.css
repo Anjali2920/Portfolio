@@ -1,0 +1,50 @@
+@import "../../vars.css";
+
+
+body {
+    background-color: var(--color-bg);
+}
+
+.container {
+    color: var(--color-text);
+    position: relative;
+    background: linear-gradient(90deg, rgba(59, 89, 152, 0.42) -60.08%, rgba(59, 89, 152, 0) 66.02%); 
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.section {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.educationItems {
+    color: var(--color-text);
+    gap: 70px;
+    background: linear-gradient(90deg, rgba(59, 89, 152, 0.42) -60.08%, rgba(59, 89, 152, 0) 66.02%); /* Adjusted gradient to match primary color */
+    background-size: 0 100%;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    font-size: 25px;
+    padding: 25px;
+    margin-bottom: 20px;
+    font-family: var(--font-roboto);
+
+}
+
+.educationItems:hover {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "role": "Full Stack Developer",
+        "organisation":"Nowce Ltd",
+        "startDate":"August 2023",
+        "endDate":"present",
+        "experience":["Developed responsive and interactive user interface using Angular framework, emphasizing best practices such as modular component design and reactive forms and integrated web socket communication for real time updates.",
+                       "Integrated RESTful APIs, employing Express.js for the backend and seamlessly interfacing with Angular on the frontend, ensuring fluid data retrieval and manipulation.",
+                       "Deployed chunk loading techniques to optimize application load times, resulting in a remarkable reduction of load times (by 60% in the local development environment).",
+                       "Incorporated agile development methodologies to streamline project delivery."
+                    ],
+        "imageSrc":"history/nowce.png"
+    },
+    {
+        "role": "R&D Intern",
+        "organisation":"Omnifia Ltd",
+        "startDate":"September 2022 ",
+        "endDate":"December 2022",
+        "experience":["Collaborated in a team of 4 to develop and implement machine learning models including thorough research, data pre-processing, and algorithm selection.",
+                       "Leveraged Python libraries such as NumPy, Pandas, and Matplotlib to perform data analysis and visualization.",
+                       "Integration of third-party applications using OAuth for authentication and strengthened expertise in TypeScript.",
+                       "Took an active part in brainstorming solutions and exchanging views during team meetings and technical talks."
+                    ],
+        "imageSrc":"history/omnifia.png"
+    },
+    {
+        "role": "Front-End Developer",
+        "organisation":"Tata Consultancy Services (TCS)",
+        "startDate":"June 2019 ",
+        "endDate":"September 2021",
+        "experience":["Excelled as an Angular Developer for over 2 years in a 6-member team of front-end developers, also collaborating with backend developers to design and consume RESTful APIs using Angular’s HTTP Client module.",
+                       "Implemented form validation and error handling mechanisms to ensure data integrity and improve user experience.",
+                       "Enhanced navigation efficiency by implementing client-side routing with Angular’s Router Module, transitioning applications into smoother, seamless single-page applications (SPAs) and ensured cross-browser compatibility.",
+                       "Engaged in Agile development practices, participating in daily stand-up meetings that fostered team communication and timely project tracking."
+                    ],
+        "imageSrc":"history/tcs.png"
+    }
+]

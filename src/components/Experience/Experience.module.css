@@ -65,3 +65,10 @@ body {
     list-style-type: disc;
     font-size: 25px;
 }
+
+@media screen and (max-width: 830px) {
+    .historyItem{
+        display: flex;
+        flex-direction: column;
+    }
+}
